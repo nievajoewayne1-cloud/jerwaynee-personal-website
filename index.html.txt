@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerwayne Nieva | Gamer • Leader • Creator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #111;
+      border-bottom: 3px solid yellow;
+      padding: 25px;
+    }
+
+    header h1 { color: white; margin: 0; }
+    header p { color: pink; margin: 5px 0; }
+
+    nav a {
+      color: yellow;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover { color: white; }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 { color: yellow; }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      width: 250px;
+      border: 2px solid yellow;
+      box-shadow: 0 0 15px rgba(255,255,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid pink;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    footer {
+      background: #111;
+      border-top: 3px solid yellow;
+      padding: 20px;
+      color: pink;
+    }
+
+    a { color: yellow; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jerwayne Nieva</h1>
+  <p>From Vision to Reality — Gamer • Leader • Creator</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#profession">Profession</a>
+    <a href="#life">My Life</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <img src="profile.jpg" alt="Jerwayne Profile" width="200" style="border-radius:100px; border:3px solid pink;">
+  <h2>About Me</h2>
+  <p>I'm <strong>Jerwayne Maaghop Nieva</strong>, 20 years old, a passionate male with strong leadership, strategic thinking, and creativity. I believe success comes from hard work, discipline, and continuous learning.</p>
+</section>
+
+<section id="hobbies" style="background:#111;">
+  <h2>My Hobbies 🎮🔥</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="games.jpg" alt="Games">
+      <h3>Strategy Games</h3>
+      <p>I love playing competitive games that test my strategy and leadership.</p>
+    </div>
+    <div class="card">
+      <img src="movies.jpg" alt="Movies">
+      <h3>Movies</h3>
+      <p>Watching movies gives me inspiration and creativity for life.</p>
+    </div>
+    <div class="card">
+      <img src="cooking.jpg" alt="Cooking">
+      <h3>Cooking</h3>
+      <p>Cooking is my way of relaxing and exploring new flavors.</p>
+    </div>
+  </div>
+</section>
+
+<section id="profession">
+  <h2>My Profession 🏆</h2>
+  <img src="profession.jpg" alt="Profession" width="500" style="border-radius:10px; border:2px solid pink;">
+  <p>I aim to become a leader who inspires others through creativity, innovation, and dedication to success.</p>
+</section>
+
+<section id="life" style="background:#111;">
+  <h2>My Life 🌟</h2>
+  <img src="life.jpg" alt="My Life" width="500" style="border-radius:10px; border:2px solid pink;">
+  <p>"Success doesn’t come from what you do occasionally — it comes from what you do consistently."</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me 📩</h2>
+  <p>Email: <a href="mailto:nievajoewayne1@gmail.com">nievajoewayne1@gmail.com</a></p>
+  <p>Facebook: <a href="https://www.facebook.com/share/1JSaZ2VAjH/" target="_blank">Visit My Profile</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Jerwayne Nieva | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
